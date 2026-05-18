@@ -1,0 +1,23 @@
+# Dependencies and generated builds
+node_modules/
+node_modules
+dist/
+Final datasets/dist/
+Final datasets/venvprojects/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local-only large datasets
+Final datasets/*.csv
+Final datasets/*.parquet
+cubems-smart-building-energy-and-iaq-data/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
